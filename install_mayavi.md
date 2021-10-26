@@ -1,8 +1,8 @@
-## anaconda prompt里安装mayavi(mayavi.mlab)
+## install mayavi(mayavi.mlab) in Anaconda Prompt
 ### background
 conda install mayavi
-import mayavi不报错
-from mayavi import mlab报错
+no error when I input "import mayavi"
+error when I input "from mayavi import mlab"
 ### relevant useful websites & potential solutions
 https://zhuanlan.zhihu.com/p/385308168
 https://blog.csdn.net/Papaya_shun/article/details/106926136
@@ -12,6 +12,8 @@ https://stackoverflow.com/questions/53853254/install-mayavi-for-python-3-7-1-in-
 conda create -n mayavi python=3.6
 conda activate mayavi
 conda install -c conda-forge mayavi
+# only this one command can deal with the problem
+# and no need to install from wheels(pip install *.whl)
 # 就这一句就解决问题了，应该是不需要从轮子装。
 ```
 ### test
