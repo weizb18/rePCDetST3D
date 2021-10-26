@@ -1,12 +1,20 @@
 ## install mayavi(mayavi.mlab) in Anaconda Prompt
 ### background
+
 conda install mayavi
+
 no error when I input "import mayavi"
+
 error when I input "from mayavi import mlab"
+
 ### relevant useful websites & potential solutions
+
 https://zhuanlan.zhihu.com/p/385308168
+
 https://blog.csdn.net/Papaya_shun/article/details/106926136
+
 https://stackoverflow.com/questions/53853254/install-mayavi-for-python-3-7-1-in-windows-10
+
 ### my solution
 ```
 conda create -n mayavi python=3.6
@@ -28,7 +36,9 @@ mlab.outline(pl)
 mlab.show()
 ```
 ### install open3d(安装在st3d这个虚拟环境了)
+
 http://www.open3d.org/docs/release/getting_started.html
+
 https://pypi.org/project/open3d/
 ```
 conda install -c open3d-admin -c conda-forge open3d
